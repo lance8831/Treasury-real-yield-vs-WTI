@@ -15,7 +15,7 @@ new_csv = new_csv.fillna("N/A")
 
 
 #Export the file into CSV format
-filepath = Path("C:/Users/Zhen Hao/Downloads/PY4E/Practice//Treasury_real_yield_yearly/treasury_real_yield_all.csv")
+filepath = Path("C:/Users/Zhen Hao/Downloads/PY4E/Practice/Treasury_real_yield_yearly/treasury_real_yield_all.csv")
 filepath.parent.mkdir(parents=True, exist_ok=True)
 new_csv.to_csv(filepath,index=None)
 
