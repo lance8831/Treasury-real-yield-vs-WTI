@@ -77,7 +77,7 @@ ser6 = pd.Series(yields5, name = "30Yr",dtype = "float64")
 results = pd.concat([ser1,ser2,ser3,ser4,ser5,ser6],axis = 1)
 
 modified_results = results.fillna("N/A")
-filepath = Path("C:/Users/Zhen Hao/Downloads/PY4E/Practice/Treasury_real_yield_yearly/treasury_real_yield_{0}.csv".format(year))
+filepath = Path("C:/Files/treasury_real_yield_{0}.csv".format(year))
 filepath.parent.mkdir(parents=True, exist_ok=True)
 modified_results.to_csv(filepath,index=None)
 
