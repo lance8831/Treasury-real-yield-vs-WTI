@@ -16,7 +16,7 @@ Crude oil, also known as the blood of industry, plays an essential role in real 
 2. All the bond yield data were [compiled](https://github.com/lance8831/Treasury-real-yield-vs-WTI/blob/main/join_file.py) into a [single csv file.](https://github.com/lance8831/Treasury-real-yield-vs-WTI/blob/main/treasury_real_yield_all.csv)
 3. WTI oil prices were pulled from [Yahoo Finance](https://github.com/lance8831/Treasury-real-yield-vs-WTI/blob/main/WTI.py) as [csv](https://github.com/lance8831/Treasury-real-yield-vs-WTI/blob/main/WTI_price.csv) file.
 4. Both bond yield data and WTI price join together into one [csv](https://github.com/lance8831/Treasury-real-yield-vs-WTI/blob/main/real_yield_vs_WTI.csv) file.
-5. 10 Yrs Bond Yield were selected and plot together with WTI price. The graph was [shown](https://github.com/lance8831/Treasury-real-yield-vs-WTI/blob/main/10Yr%20TIPS%20Yield%20vs%20WTI%20Oil%20Price-2003-2022.png) here.
+5. 10 Yrs Bond Yield was selected and plotted together with WTI price. The graph was [shown](https://github.com/lance8831/Treasury-real-yield-vs-WTI/blob/main/10Yr%20TIPS%20Yield%20vs%20WTI%20Oil%20Price-2003-2022.png) here.
  
 ## Discussion
 From the visualization of the graph,10 Yr TIPS yield and WTI price is negatively correlated with each other. The region highlighted lightgrey regions shows that oil price tend to goes up when bond yield started to decrease. The orange highlighted shows the opposite observation. Hence it can be seen that the bond yield lead the value of WTI price.([3](https://seekingalpha.com/article/4484793-price-of-oil-determined-real-yield))
