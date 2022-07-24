@@ -63,5 +63,5 @@ ax1.axvspan(datetime.date(2013,6,7), datetime.date(2014,7,30), facecolor = "ligh
 fig.text(0.1, 0.01,"Last updated at July 22,2022",fontsize = 12,color = "black")
 ax1.grid(linestyle = "dashed")
 #fig.tight_layout()
-fig.savefig("10Yr TIPS Yield vs WTI Oil Price-2003-2022.tiff")
+fig.savefig("10Yr TIPS Yield vs WTI Oil Price-2003-2022.png")
 #plt.show()
