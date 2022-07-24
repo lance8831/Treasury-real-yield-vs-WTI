@@ -14,7 +14,8 @@ if year < 2003:
     print("No data found")
     exit()
 
-url = "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/xml?data=daily_treasury_real_yield_curve&field_tdr_date_value={0}".format(year)
+url = "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/pages/' + \
+xml?data=daily_treasury_real_yield_curve&field_tdr_date_value={0}".format(year)
 
 print("Retrieving data...")
 html =  requests.get(url)
