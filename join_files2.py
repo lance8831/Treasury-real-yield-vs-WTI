@@ -4,7 +4,7 @@ import pandas as pd
 from pathlib import Path
 
 #setting path for joining multiple files
-files = os.chdir("C:/Users/Zhen Hao/Downloads/PY4E/Practice")
+files = os.chdir("C:/Files")
 
 #make a list for the same file extension to be combined
 extension = "csv"
@@ -15,7 +15,7 @@ new_csv = pd.concat([pd.read_csv(f) for f in all_files],axis =1)
 new_csv = new_csv.fillna("N/A")
 
 #Export the file into CSV format
-filepath = Path("C:/Users/Zhen Hao/Downloads/PY4E/Practice/real_yield_vs_WTI.csv")
+filepath = Path("C:/Files/real_yield_vs_WTI.csv")
 filepath.parent.mkdir(parents=True, exist_ok=True)
 new_csv.to_csv(filepath,index=None)
 
